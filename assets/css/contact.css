@@ -366,14 +366,16 @@ header .nav__links li a:hover {
   }
 }
 
-#contact .container h2 {
+#contact .container h1 {
+  margin-top: 20px;
+  color: var(--title);
   font-family: mainFont;
   font-weight: bold;
 }
 
 #contact .container p {
   font-family: mainFont;
-  color: #555;
+  color: var(--subtitle);
 }
 
 #contact .box {
