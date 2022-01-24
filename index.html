@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE-edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Home</title>
+
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+		<link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link rel="stylesheet" href="assets/css/animate.css" />
+		<link rel="stylesheet" href="assets/css/main.css"/>
+	</head>
+
+	<body>
+		<header>
+			<div class="nav__padding">
+				<div class="nav__container">
+					<div class="text-logo" onclick="window.location.href='index.html'"></div>
+					<nav>
+						<ul class="nav__links">
+							<li class="active"><a href="#" class="is-active">Home</a></li>
+							<li><a href="news.html" class="nav-link">News</a></li>
+							<li><a href="adopt.html" class="nav-link">Adopt</a></li>
+							<li><a href="donate.html" class="nav-link">Donate</a></li>
+							<li>
+								<div class="custom-btn">
+									<a href="contact.html"><button class="btn-custom">Contact Us</button></a>
+								</div>
+							</li>
+						</ul>
+
+						<button class="btns">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+
+						<div class="mobile-menu">
+							<a href="#" class="is-active">Home</a>
+							<a href="news.html">News</a>
+							<a href="adopt.html">Adopt</a>
+							<a href="donate.html">Donate</a>
+							<a href="contact.html">Contact</a>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<section id="cover" class="d-flex align-content-center justify-content-center">
+			<div class="cover__container d-flex align-content-center justify-content-center">
+				<div class="cover__bg d-flex align-content-center justify-content-center">
+					<div class="cover__content">
+						<div class="cover__pic d-flex align-content-center justify-content-center">
+							<img src="images/logo.PNG" class="wow bounceIn" alt="">
+						</div>
+						<div class="cover__title wow bounceInDown" style="padding: 30px 0;">
+							<div class="d-flex align-content-center justify-content-center">
+								<h1>You can't buy</h1>
+								<h1 class="text__indent red">Love,</h1>
+							</div>
+							<div class="d-flex align-content-center justify-content-center">
+								<h1>But you can</h1>
+								<h1 class="text__indent blue">Rescue</h1>
+								<h1 class="text__indent">it.</h1>
+							</div>
+						</div>
+						<div class="button-container wow bounceInUp">
+							<a onclick="scrollToBottom()" class="button button-pulse">Learn more</a>
+						</div>
+					</div>
+				</div>
+				<div class="clouds">
+					<div class="cloud one"></div>
+					<div class="cloud two"></div>
+					<div class="cloud three"></div>
+				</div>
+			</div>
+		</section>
+
+		<section id="info">
+			<div class="container mission md-5 d-flex align-items-center justify-content-center">
+				<div class="row" id="a">
+
+					<!-- Pic -->
+					<div class="col-lg-6" style="height: 350px;">
+						<div class="card d-flex align-content-center justify-content-center">
+							<div class="dog d-flex align-content-center justify-content-center">
+								<img src="images/home.png"  class="wow bounceIn" data-wow-delay="0.1s" height="320"> 
+							</div>
+						</div>
+					</div>
+	
+					<!-- Text -->
+					<div class="col-lg-6 wow fadeInRight" style="height: 350px;">
+						<div class="card d-flex align-items-center justify-content-center" style="height: 100%;">
+							<div class="text" style="width: 80%;">
+								<h4>WHY WE CARE</h4>
+								<h2>
+									Our camp exists to provide a shelter
+									for adoptable companion animals without
+									homes so that no one will endure the pain
+									and suffering of life abandonment.
+								</h2>
+								<p>
+									Homeless dogs and cats on the streets get
+									hit by cars, are vulnerable to attacks by
+									other animals and cruel people, and contract,
+									spread, suffer and die from contagious diseases.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="paws wow fadeInLeft">
+				<img src="images/paw-print.png" alt="">
+			</div>
+
+			<div class="container vision md-5">
+				<div class="row" id="b">
+	
+					<!-- Text -->
+					<div class="col-lg-6 wow fadeInLeft" style="height: 350px;">
+						<div class="card d-flex align-items-center justify-content-center" style="height: 100%;">
+							<div class="text" style="width: 80%;">
+								<h4>WHAT WE WANT</h4>
+								<h2>
+									A heavenly community for our animal companions
+									where people can found new friends that they can
+									depend on to build a safe haven for each other.
+								</h2>
+								<p>
+									After all, for man's best friend, no medal could
+									ever replace the comfort of home and the love of
+									family.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Pic -->
+					<div class="col-lg-6" style="height: 350px;">
+						<div class="card d-flex align-content-center justify-content-center">
+							<div class="dog d-flex align-content-center justify-content-center">
+								<img src="images/dog.png"  class="wow bounceIn" data-wow-delay="0.1s" height="320"> 
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section id="info2">
+			<div class="container md-5 d-flex align-content-center justify-content-center">
+				<div class="content">
+					<div class="text-center" data-aos="fade-down" data-aos-duration="1000">
+						<h1>You Can Make a Difference</h1>
+						<p class="subheading">Help pets in need through sheltering, adoption, education, spay/neuter, and community outreach.</p>
+					</div>
+					<div class="row mt-4">
+	
+						<div class="itm col-lg-4 wow bounceIn" data-wow-delay="0.5s">
+							<div class="card">
+								<div class="dog text-center" data-aos="zoom-in" data-aos-duration="1000" style="margin: 20px;">
+									<h2>Make a Donation</h2>
+									<div class="details mt-3">
+										<p>As a non-profit organization, Pawssion Project operates and relies heavily on donations from the community. We are always called upon to rescue animals suffering from abandonment, abuse, injury or neglect and none of it is possible without your support.</p>
+									</div>
+									<div class="go">
+										<a href="donate.html" class="btn btn-primary text-center">Donate</a>
+									</div>
+								</div>
+							</div>
+						</div>
+	
+						<div class="itm col-lg-4 wow bounceIn" data-wow-delay="1s">
+							<div class="card">
+								<div class="dog text-center" data-aos="zoom-in" data-aos-duration="1000" style="margin: 20px;">
+									<h2>Shelter Them</h2>
+									<div class="details mt-3">
+										<p>Many of our Adoptables from our Bulacan and Bacolod Shelters have been rescued from death row, from local pounds or from abusive environments. By choosing to adopt, you are giving them the chance to find a new home and to feel the love and security they deserve.</p>
+									</div>
+									<div class="go">
+										<a href="adopt.html" class="btn btn-primary text-center">Adopt</a>
+									</div>
+								</div>
+							</div>
+						</div>
+	
+						<div class="itm col-lg-4 wow bounceIn" data-wow-delay="1.5s">
+							<div class="card">
+								<div class="dog text-center" data-aos="zoom-in" data-aos-duration="1000" style="margin: 20px;">
+									<h2>Lend a Paw</h2>
+									<div class="details mt-3">
+										<p>While not everyone can foster or adopt, there are always other ways to help our rescues. Through our Sponsor-A-Rescue Program, our rescues now have a wonderful support system rooting for their full recovery and continuous comfort while at the shelter.</p>
+									</div>
+									<div class="go">
+										<a href="contact.html" class="btn btn-primary text-center">Volunteer</a>
+									</div>
+								</div>
+							</div>
+						</div>
+	
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="info3">
+			<div class="md-5 min-vh-100 d-flex align-items-center justify-content-center">
+				<div class="content">
+					<div class="title text-center" data-aos="fade-down" data-aos-duration="1000">
+						<h1>Be One of Our Sponsors</h1>
+						<p class="subheading">Support all valuable program of our community by giving a few hours of your time cooperating with us.</p>
+					</div>
+					<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner wow bounceIn">
+							<div class="carousel-item active">
+								<!-- Slide 1 -->
+								<div class="slide d-flex align-content-center justify-content-center">
+									<div class="row align-content-center justify-content-center">
+										<div class="col-lg-5">
+											<div class="pic d-flex justify-content-center align-content-center">
+												<img src="images/sponsors/1-paws.PNG" alt="...">
+											</div>
+										</div>
+										<div class="col-lg-5">
+											<div class="detail d-flex justify-content-center align-content-center">
+												<div class="text">
+													<h3>Philippine Animal Welfare Society (PAWS)</h3>
+													<p>PAWS drafted Republic Act 8485 or the Philippine
+														Animal Welfare Bill. It promotes adopting instead
+														of buying pets in the Philippines, which increased
+														the number who actually did.</p>
+													<a href="https://paws.org.ph/" target="_blank" class="sec-link">Visit Website</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<!-- Slide 2 -->
+								<div class="slide d-flex align-content-center justify-content-center">
+									<div class="row align-content-center justify-content-center">
+										<div class="col-lg-5">
+											<div class="pic d-flex justify-content-center align-content-center">
+												<img src="images/sponsors/2-part.PNG" alt="...">
+											</div>
+										</div>
+										<div class="col-lg-5">
+											<div class="detail d-flex justify-content-center align-content-center">
+												<div class="text">
+													<h3>Philippine Animal Rescue Team (PART)</h3>
+													<p>PART has a four-hectare farm in San Jose del Monte City,
+														Bulacan, where 500 homeless dogs, cats, turtles, chickens,
+														turkeys and goats roam freely.</p>
+													<a href="http://www.philanimalrescue.org/" target="_blank" class="sec-link">Visit Website</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<!-- Slide 3 -->
+								<div class="slide d-flex align-content-center justify-content-center">
+									<div class="row align-content-center justify-content-center">
+										<div class="col-lg-5">
+											<div class="pic d-flex justify-content-center align-content-center">
+												<img src="images/sponsors/3-akf.PNG" alt="...">
+											</div>
+										</div>
+										<div class="col-lg-5">
+											<div class="detail d-flex justify-content-center align-content-center">
+												<div class="text">
+													<h3>Animal Kingdom Foundation, Inc. (AKF)</h3>
+													<p>AKF has rescued thousands of slaughter-bound dogs and jailed
+														numerous dog traders. Together with the Philippine National
+														Police, they raid slaughterhouses and establishments where
+														dog trading and meat selling happen.</p>
+														<a href="http://akf.org.ph/" target="_blank" class="sec-link">Visit Website</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="info5">
+			<div class="container md-5 text-center d-flex align-items-center justify-content-center">
+				<div class="about" data-aos="fade-down" data-aos-duration="1000">
+					<h5>Piers Pet Camp</h5>
+					<p>Bulacan Shelter: 1429 Paradise 1, Purok 7 Tungkong Mangga, SJDM, Bulacan</p>
+					<p>Bacolod Shelter: GM Cordova Ave (Buri Road), Bacolod, Negros Occidental</p>
+					<p>info@pierspetcamp.org</p>
+					<div class="media d-flex text-center justify-content-center align-content-center">
+						<a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+						<a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
+						<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="sec-footer">
+			<div class="footer d-flex align-content-center justify-content-center">
+				<div class="text d-flex align-content-center justify-content-center">
+					<h6 class="text-center">&#169; Pier's Pet Camp &#8226; 2021 - 2022</h6>
+				</div>
+			</div>
+		</section>
+
+		<script src="assets/js/main.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>AOS.init();</script>
+		<script src="assets/js/wow.min.js"></script>
+		<script>new WOW().init();</script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+	</body>
+</html>
