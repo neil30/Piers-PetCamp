@@ -521,7 +521,7 @@ header .nav__links li a:hover {
   margin: auto;
   align-content: center;
   justify-content: center;
-  padding: 5px 30px;
+  padding: 8px 30px;
   cursor: pointer;
   transition: 0.3s linear;
 }
@@ -531,6 +531,7 @@ header .nav__links li a:hover {
   color: var(--light);
   font-family: mainFont;
   font-weight: bold;
+  font-size: 14px;
 }
 
 #content .container .text .adopt__button:hover {
