@@ -421,7 +421,7 @@ header .nav__links li a:hover {
   height: 40px;
   margin: auto;
   position: absolute;
-  left: 48%;
+  left: 50%;
   animation: arrow 0.5s 1s infinite ease-out alternate;
 }
 

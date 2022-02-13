@@ -457,10 +457,22 @@ header .nav__links li a:hover {
   width: 150px;
 }
 
+.flip-card-back .profile {
+  height: 100px;
+  width: 100px;
+  border: 5px solid var(--primary);
+  border-radius: 50%;
+}
+
 .flip-card-back h2,
-h4 {
+h4,h3 {
   font-family: mainFont;
   font-weight: bold;
+  margin: 0;
+}
+
+.flip-card-back p {
+  margin: 0;
 }
 
 /* Next Section */
